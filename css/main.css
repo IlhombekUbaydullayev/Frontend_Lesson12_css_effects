@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 1rem 0 auto;
+}
+
+ul li{
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+}
+
+ul li:nth-child(odd){
+    background-color: #f1f1f1;
+}
+
+ul li:nth-child(2) a {
+    color: black;
+    text-decoration: none;
+}
+
+.text + p {
+    font-size: 12px;
+    color: #909090;
+    margin: 0;
+}
+
+a[title="hover me"]{
+    background-color: red;
+    text-decoration: none;
+    font-style: inherit;
+    font-size: 16px;
+    color: #f1f1f1;
+}
